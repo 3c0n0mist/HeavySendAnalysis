@@ -21,7 +21,10 @@
  This generated a spike of 3.1 kN.
 
  ## Second Send
- The Second Dino attempt, i climbed a bit higher, and leaped for the top of the climb with no intention to reach it. I free fell for the next few seconds, creating a larger force tension on the anchor of 3.27 kN.
+ The Second Dino attempt, i climbed a bit higher, and leaped for the top of the climb with no intention to reach it. I free fell for the next few seconds, creating a larger tension on the anchor of 3.27 kN.
+ 
+ <img width="1008" alt="image" src="https://user-images.githubusercontent.com/47517636/197087516-ae7d94cb-c91a-44c9-b97f-7364de3d6bf1.png">
+
 
 
 
