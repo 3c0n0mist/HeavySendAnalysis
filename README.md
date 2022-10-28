@@ -30,7 +30,7 @@
 
 # Units
  I use lbs and lbf and interchangeably as they are quite similar and for my purposes an approximate answer is quite adequate.
- The conversion rate i use is, **1 lbf = 4.44822 N**
+ The conversion rate used is, **1 lbf = 4.44822 N**
 
 # The Analysis
 
