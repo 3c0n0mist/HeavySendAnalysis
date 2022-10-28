@@ -1,7 +1,7 @@
  # How much force is applied in top-rope climbing: A data Analysis
  ### Thu Oct 20 17:06:26 PDT 2022
  
- "In rock climbing, people get strong enough, and then they pick goals they can do with their strengths at that moment." Tommy Caldwell
+ >"In rock climbing, people get strong enough, and then they pick goals they can do with their strengths at that moment." Tommy Caldwell
 
  Climbing is a great sport which involves problem solving and great communication. However, participants might get injured if they are not careful in this activity. 
  Learning about the forces is key to understand the science behind climbing.
@@ -24,22 +24,24 @@
  | Roan      | 234.7 lbs      | belayer        |
  | Mohammed  | NA             | supervisor (2) |
 
- *1. When climbing its preferred to have a belayer >=50% of your weight, so that the belayer is able to effectively belay you without being elevated
- 2. In charge of controlling the sensors and setting up the equipment for the experiment.********
+> *1. When climbing its preferred to have a belayer >=50% of your weight, so that the belayer is able to effectively belay you without being elevated
+> 2. In charge of controlling the sensors and setting up the equipment for the experiment.********
 
  At my request, Roan fed me slack for the whole climb, to recreate a lead climbing experience.
  
- * Dyno is when the climber makes a dynamic movement that uses momentum to get to the next hold.*
+ >* Dyno is when the climber makes a dynamic movement that uses momentum to get to the next hold.*
  
  During the process, I attempted the Dyno twice, which caused two peak forces and these will be discussed in the next section.
  
 <img width="1020" alt="image" src="https://user-images.githubusercontent.com/47517636/197107891-81dc59ac-9f57-4463-9d5f-244611129dcf.png">
 
+
 # Units
  I use lbs and lbf and interchangeably as they are quite similar and for my purposes an approximate answer is quite adequate.
  The conversion rate used is, **1 lbf = 4.44822 N**
 
-# The Analysis
+
+o# The Analysis
 
  1. Time Series Analysis:
 	As the figure above suggests, there are small oscillatory motions that are unexplained, this is due to the semi-static rope and the small forces acting on it due to the climb.
