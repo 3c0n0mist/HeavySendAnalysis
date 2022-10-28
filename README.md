@@ -29,7 +29,7 @@
 <img width="1020" alt="image" src="https://user-images.githubusercontent.com/47517636/197107891-81dc59ac-9f57-4463-9d5f-244611129dcf.png">
 
 
-c# The Analysis
+# The Analysis
 
  1. Time Series Analysis:
  	As the figure above suggests, there are small oscillatory motions that are unexplained, i would like to see if they are random noise or there is a pattern that needs to be evaluated.
@@ -58,10 +58,18 @@ c# The Analysis
 	The First Differences shows the peak and the dip right after the fall, so as per the data it suggests the displacement was 2075.317 N over half a second.
 
 # Results
+
 ## How much force do i apply on the anchor on top rope whip?
 I applied about 3273 N, on this specific climb. This was done with slack however it doesn't accurately replicate the lead climb whip as those whips are sometimes done above the anchor leading to bigger fall maximum of twice the distance if you fall while clipping.
 
 This makes me wonder, how much the trad nuts and cams withstand when a climber whips. There is emphasis on placing the gear right as if placed right the force is transferred on the rock if not the piece just pops out.
+
+<img width="1020" alt="image" src ="8KN.png">
+
+the infograph above displays visually how much force i exert on the climbing equipment as i whip.
+ - Biner Scale: i used a Black Diamond Locking Biner for reference
+ - Cam Scale: I used the smallest cam, i could find.
+ - Kong Scale: the weakest gorilla punch is 5KN, still enough to smash one's head. 
 
 ## How much does it hurt to Belay me?
 So i weigh 196 lbs, me standing exerts a force of 871.85 N on the ground ( found thanks to Newtons Second Law).
@@ -73,6 +81,7 @@ As i stayed still on the wall after the fall, i was exerting 2080 Ns hence he re
 # Conclusion
 The pain to belay me is very strongly correlated with how ill-fitting your harness is and how light you are compared to me.
 Every action has an equal and opposite reaction, so if i whip, you fly. 
+
 
 
 
