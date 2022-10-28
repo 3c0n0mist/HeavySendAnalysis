@@ -1,30 +1,37 @@
- # The Heavy Send
+ # How much force is applied in top-rope climbing: A data Analysis
  ### Thu Oct 20 17:06:26 PDT 2022
  
- On Oct 19, Mechanical Engineering Students were evaluating the forces at play while being lowered after a top-rope climb.
+ "In rock climbing, people get strong enough, and then they pick goals they can do with their strengths at that moment." Tommy Caldwell
 
- I volunteered to belay these students in return for data to answer a few questions of my own.
+ Climbing is a great sport which involves problem solving and great communication. However, participants might get injured if they are not careful in this activity. 
+ Learning about the forces is key to understand the science behind climbing.
 
- 1. How much Force do i apply on the quick-draw when i fall on lead?
- 2. How much Force do i apply on the Top Rope anchor when i take a big whipper?
+ On Oct 19, I as a data analyst, cooperating with my friends from the UBC Mechancial Engineering Department, carried out a force analysis project for top-rope climbing.
+
+ In this project, following questions will be figured out:
+ 1. How much Force do I apply on the quick-draw when I fall on lead?
+ 2. How much Force do I apply on the Top Rope anchor when I take a big whipper?
  3. How is the force distributed between the anchor, rope and the belayer?
  4. How much does it hurt to belay me?
 
 # The experiment
  
- I was belayed by Roan who weighs 234.7 lbs, i weigh about 196 lbs. This is a nice check when climbing as you would always prefer to have a belayer >= 50% of your weight, so that the belayer is able to effectively belay you without being elevated.
- 
- We were supervised by Mohammed, who we requested to turn on the sensors for the climb up. I asked Roan to feed me slack all the way to recreate a lead climbing experience.
- 
- *Dyno is when the climber makes a dynamic movement that uses momentum to get to the next hold.*
- 
- ## First Send
- The First Dyno attempt, i leaped too high, with the hold being too close to my upper torso. This resulted in a blood blister on my left hand to an unexpected fall.
+ Roan Raina, Mohammed Reza Karimi and I (Sumit) formed the team for experiment in UBC's Aviary (Top rope climbing gym). Below is the basic information
 
- This generated a spike of 3.1 kN.
+ | Person    | Body Weight (1) | Role           |
+ |-----------|----------------|----------------|
+ | Sumit     | 196 lbs        | climber        |
+ | Roan      | 234.7 lbs      | belayer        |
+ | Mohammed  | NA             | supervisor (2) |
 
- ## Second Send
- The Second Dyno attempt, i climbed a bit higher, and leaped for the top of the climb with no intention to reach it. I free fell for the next few seconds, creating a larger tension on the anchor of 3.27 kN.
+ *1. When climbing its preferred to have a belayer >=50% of your weight, so that the belayer is able to effectively belay you without being elevated
+ 2. In charge of controlling the sensors and setting up the equipment for the experiment.********
+
+ At my request, Roan fed me slack for the whole climb, to recreate a lead climbing experience.
+ 
+ * Dyno is when the climber makes a dynamic movement that uses momentum to get to the next hold.*
+ 
+ During the process, I attempted the Dyno twice, which caused two peak forces and these will be discussed in the next section.
  
 <img width="1020" alt="image" src="https://user-images.githubusercontent.com/47517636/197107891-81dc59ac-9f57-4463-9d5f-244611129dcf.png">
 
@@ -35,7 +42,7 @@
 # The Analysis
 
  1. Time Series Analysis:
- 	As the figure above suggests, there are small oscillatory motions that are unexplained, i would like to see if they are random noise or there is a pattern that needs to be evaluated.
+	As the figure above suggests, there are small oscillatory motions that are unexplained, this is due to the semi-static rope and the small forces acting on it due to the climb.
 
 	- General Observations:
 
@@ -47,9 +54,9 @@
 
 	after 34.5s, I started free falling for 0.5s this means after Roan caught me the slack extended for about 0.5s, the force rose from 
 	
-	[105.43810 ->  522.32739 ->1127.98857 ->1205.29755 ]
+	[105.43810 N ->  522.32739 N -> 1127.98857 N -> 1205.29755 N ]
 
-	the force rises by about 5 times in the first 0.1s and then falls to 2 times to coming to stand still at 3273 N.
+	It rises by about 5 times in the first 0.1s and then falls to 2 times to coming to stand still at 3273 N.
 	
 	this is when the dynamicity of the rope comes into play, so for the next 0.5s the rope absorbs the force.
 
@@ -58,7 +65,11 @@
 	<img width="1020" alt="image" src="https://user-images.githubusercontent.com/47517636/197107543-18ed4e45-0c45-4e22-9747-8c4eadc4a186.png">
 
 	- First Differences/ Impulse:
+	
+	*Impulse in Physics is a term that is used to describe the effect of force acting over time to change the momentum of an object.*
+
 	The First Differences shows the peak and the dip right after the fall, so as per the data it suggests the impluse was 2075.317 N over half a second.
+
 
 
 # Results
@@ -71,20 +82,24 @@ This makes me wonder, how much the trad nuts and cams withstand when a climber w
 <img width="1020" alt="image" src ="8KN.png">
 
 the infograph above displays visually how much force i exert on the climbing equipment as i whip.
- - Biner Scale: I used a Black Diamond Locking Biner for reference
- - Cam Scale: I used the smallest cam, i could find.
+
+ - Biner Scale: Black Diamond Locking Biner
+ - Cam Scale: DragonFly Micro Cams
  - Kong Scale: [the weakest gorilla punch is 5.8 KN.](https://www.google.com/search?client=safari&rls=en&q=gorilla+punch+force&ie=UTF-8&oe=UTF-8)
 
 ## How much does it hurt to Belay me?
-So i weigh 196 lbs, me standing exerts a force of 871.85 N on the ground ( found thanks to Newtons Second Law).
 
-Roan felt approximately 37N as i climbed, when i whipped he elevated, that's because he weighs 1054.83 Ns and i generated 3273 Ns. As he placed his legs on the wall and braced himself the weight was now transferred on the anchor and the rope mostly.
+I weigh 196 lbs, me standing exerts a force of 871.85 N on the ground ( found thanks to Newtons Second Law).
 
-As i stayed still on the wall after the fall, i was exerting 2080 Ns hence he remained elevated until i lowered enough till about the my forces were equal or less than his, which is until i reached safely on the ground.
+Roan felt approximately 37N as I climbed, when I whipped he elevated, that's because he weighs 1054.83 Ns and I generated 3x amount of force. He placed his legs on the wall and braced himself, the weight was then transferred on the anchor and the rope mostly.
+
+As I stayed still on the wall after the fall, I exerted 2080 Ns hence he remained elevated until I lowered enough till about the my forces were equal or less than his, which is until I safely reached the ground.
+
 
 # Conclusion
 The pain to belay me is very strongly correlated with how ill-fitting your harness is and how light you are compared to me.
-Every action has an equal and opposite reaction, so if i whip, you fly. 
+Every action has an equal and opposite reaction, so if I whip, you fly. 
+
 
 
 
